@@ -22,7 +22,7 @@
   macro outside the function you wish to test, providing both a name and the
   number of asserts you expect to see covered over the course of your test.
   Then use the ASSERT_COVERED macro in every part of the function you wish to
-  check coverage on. For example:    t   
+  check coverage on. For example:    t    
 
     COVERAGE(MyCoverageCase, 3)
     void MyFunction(int a, int b) {
